@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"></group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/settings_id"
+                android:icon="@drawable/gear"
+                android:title="Settings" />
+            <item
+                android:id="@+id/status_check_id"
+                android:icon="@drawable/status_check"
+                android:title="Check Status" />
+            <item
+                android:id="@+id/developer_id"
+                android:icon="@drawable/developer"
+                android:title="Developer" />
+        </menu>
+    </item>
+</menu>

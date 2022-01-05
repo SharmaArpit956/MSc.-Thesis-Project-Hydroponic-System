@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    tools:context="com.example.snoee.myapplistview.fragments.BatteryFrag">
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/battery_icon_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/battery_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingLeft="11dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/batt_level_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/battery_level_gradient_" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/batt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="@style/MText"
+            android:textStyle="italic|bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/backup_status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+android:gravity="bottom"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Power Backup Is UnPlugged"
+            android:textAppearance="@style/SText" />
+
+        <TextView
+            android:id="@+id/estimated_running_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+             android:layout_weight="1"
+            android:gravity="top"
+            android:background="@android:color/transparent"
+            android:text="Estimated Time : unavailable"
+            android:textAppearance="@style/SText" />
+    </LinearLayout>
+</LinearLayout>

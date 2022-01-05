@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Intelligent Hydroponic System</string>
+    <string-array name="titles">
+
+
+        <item>Control Panel</item>
+        <item>Statistics</item>
+    </string-array>
+    <string-array name="description">
+
+        <item>Current status and manual control </item>
+        <item>The graphs for the last month</item>
+    </string-array>
+
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+
+
+</resources>

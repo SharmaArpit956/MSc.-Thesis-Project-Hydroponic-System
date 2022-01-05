@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorPrimary_list_view">#515151</color>
+    <color name="colorPrimaryDark_list_view">#000000</color>
+
+
+    <color name="ColorPrimary_controlPanel">#33203A43</color>
+    <color name="ColorPrimaryDark_controlPanel">#D80F2027</color>
+    <color name="ColorAccent_controlPanel">#CFD8DC</color>
+    <color name="ColorPrimaryLight_controlPanel">#D82C5364</color>
+
+    <color name="ColorPrimary_statistics">#33ff9d00</color>
+    <color name="ColorPrimaryDark_statistics">#ff8800</color>
+    <color name="ColorAccent_statistics">#ffcc00</color>
+    <color name="ColorPrimaryLight_statistics">#ffae00</color>
+
+    <color name="ColorPrimary_agriculturalSpray">#33203A43</color>
+    <color name="ColorPrimaryDark_agriculturalSpray">#D80F2027</color>
+    <color name="ColorAccent_agriculturalSpray">#CFD8DC</color>
+    <color name="ColorPrimaryLight_agriculturalSpray">#D82C5364</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <color name="translucentWhite1">#33FFFFFF</color>
+    <color name="translucentWhite2">#66FFFFFF</color>
+
+</resources>

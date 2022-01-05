@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backgroundColor" format="color"/>
+    <!-- ↓↓↓ -->
+    <declare-styleable name="ChildFragment">
+        <attr name="customTheme" format="reference" />
+    </declare-styleable>
+    <!-- ↑↑↑ -->
+</resources>

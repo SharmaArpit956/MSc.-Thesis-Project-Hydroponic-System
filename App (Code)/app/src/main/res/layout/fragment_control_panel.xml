@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_panel_big"
+    android:orientation="vertical"
+    tools:context="com.example.snoee.myapplistview.fragments.ControlPanelFrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/batt_id"
+                android:name="com.example.snoee.myapplistview.fragments.BatteryFrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fragment_margin"
+                android:padding="@dimen/fragment_padding"
+                app:customTheme="@style/AppTheme.Agro"
+                tools:layout="@layout/fragment_battery" />
+
+            <fragment
+                android:id="@+id/weath_id"
+                android:name="com.example.snoee.myapplistview.fragments.WeatherFrag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/agro_frag_height"
+                android:layout_margin="@dimen/fragment_margin"
+                android:padding="@dimen/fragment_padding"
+                app:customTheme="@style/AppTheme.Agro"
+                tools:layout="@layout/fragment_weather" />
+
+            <fragment
+                android:id="@+id/ph_id"
+                android:name="com.example.snoee.myapplistview.fragments.phFrag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/agro_frag_height"
+                android:layout_margin="@dimen/fragment_margin"
+                android:padding="@dimen/fragment_padding"
+                app:customTheme="@style/AppTheme.Agro"
+                tools:layout="@layout/fragment_ph" />
+
+            <fragment
+                android:id="@+id/liquid_level_id"
+                android:name="com.example.snoee.myapplistview.fragments.LiquidLevelFrag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/agro_frag_height"
+                android:layout_margin="@dimen/fragment_margin"
+                android:padding="@dimen/fragment_padding"
+                app:customTheme="@style/AppTheme.Agro"
+                tools:layout="@layout/fragment_liquid_level" />
+
+            <fragment
+                android:id="@+id/ps_id"
+                android:name="com.example.snoee.myapplistview.fragments.PumpSliderFrag"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/agro_frag_height"
+                android:layout_margin="@dimen/fragment_margin"
+                android:padding="@dimen/fragment_padding"
+                app:customTheme="@style/AppTheme.Agro"
+                tools:layout="@layout/fragment_pump_slider" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
